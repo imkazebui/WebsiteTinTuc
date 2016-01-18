@@ -1,0 +1,319 @@
+/*
+Theme Name: Tin Tuc
+Author: Nhom TP2V
+Description: Theme Website tin tuc
+Version: 1.0
+Text Domain: tintuc
+*/
+/** reset **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** end **/
+
+
+body{
+	font-size:13px;
+	font-family:  Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+/**
+ 1) Header css
+**/
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+@media (max-width: 768px){
+  .only-dekstop {
+    display:none;
+  }
+
+}
+.entry-header{
+	font-size:28px;
+}
+.title-item-anh-video{
+	color:#000;
+	font-weight:bold;
+}
+.nav-topmost
+{
+	margin-bottom:20px;
+	padding:0;
+	height:50px;
+	background:#000;
+}
+.set-home
+{
+	line-height:50px;
+	padding:0 20px 0 20px;
+}
+.set-home a
+{
+	color:#F4D611;
+	
+}
+.search-button,.search-box
+{
+	margin:6px 15px 0 15px;
+}
+.search-box
+{
+	width:300px;
+}
+.banner-top
+{
+	height:150px;
+	background:#eee;
+	margin-bottom:15px;
+	text-align:center;
+	line-height:100px;
+}
+/**
+	2) Content
+**/
+.recent-hot img, .recent-news img, .recent-col-2 img, .content-category img
+{
+	width:100%;
+}
+#section_recent a{
+	color: #000;
+	font-weight: bold;
+	
+}
+.title-article
+{
+	font-family:sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	padding-top:15px;
+}
+.title-article-small
+{
+	padding-bottom:10px;
+}
+.title-category
+{
+	background:#fff;
+	height:30px;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+.title-category a, .title-anh-video a
+{
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+}
+.content-category a
+{
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+}
+.title-anh-video
+{
+	background:#fff;
+	height:30px;
+}
+
+/** Single **/
+.main-content{
+	padding:0 15px;
+}
+
+/** May interesting **/
+
+.may-interesting {
+	margin-top:40px;
+}
+.item-interesting{
+	margin-bottom: 15px;
+}
+
+/** Adv top **/
+.adv-top{
+	margin-bottom:20px;
+	
+}
+/** Comment**/
+#comment{
+	margin-bottom: 15px;
+	height:100px;
+	padding-right: 25px;
+	
+}
+.header-comment{
+	position: relative;
+	margin-left:35px;
+	
+}
+.header-comment h2{
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 40px;
+}
+.header-comment h2:before{
+	content:"";
+    border-style: solid;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #dd4397;
+    position: absolute;
+    left: -25px;
+}
+.meta-comment{
+	position: relative;
+}
+.meta-comment .author-name{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.meta-comment .comment-time{
+	display:none;
+}
+.meta-comment img{
+	 -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; 
+	 position: absolute;
+	 top: 0;
+	 left: -20px;
+}
+.comment-content,.comment-actions,.meta-comment{
+	padding-left: 40px;
+}
+
+/** 404 page **/ 
+.err_body{
+	border: 1px solid #ddd;
+}
+
+/** Category **/
+.category-title{
+	text-transform: uppercase;
+	font-size:18px;
+	font-weight: bold;
+}
+.article-category{
+	margin-bottom:20px;
+}
+.article-category-description{
+}
+.article-category-image{
+	max-height:250px;
+	overflow: hidden;
+}
+
+/** Search **/
+.search-title{
+	text-transform: uppercase;
+	font-size:18px;
+	font-weight: bold;
+}
+
+/** Most view **/
+.most-view {
+	padding: 10px;
+}
+.most-view h1{
+	font-size:24px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.most-view a{
+	font-size:14px;
+	color:#000;
+}
+.most-view p{
+	min-height:50px;
+	position:relative;
+	border-bottom:1px solid #eee;
+	padding-right:50px;
+}
+.most-view p span{
+	position: absolute;
+	top:0;
+	right: 0;
+} 
+
+/** May interesting **/
+.may-interesting{
+	padding: 10px;
+} 
+.may-interesting h1{
+	font-size:24px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.may-interesting a{
+	font-weight: bold;
+	font-size: 14px;
+	color:#000;
+}
+
+/** Post Related **/
+.post-related {
+	margin-top: 30px;
+}
+.post-related h1{
+	font-size:20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.post-related a{
+	font-weight: bold;
+	font-size: 14px;
+	color:#000;
+}
+
+/** Page navigation **/
+.nav-previous a, .nav-next a{
+	color:#fff;
+}
+
+.nav-previous a:hover, .nav-next a:hover{
+	text-decoration: none;
+}
